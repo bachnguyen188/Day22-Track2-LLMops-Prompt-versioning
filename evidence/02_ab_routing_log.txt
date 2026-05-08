@@ -1,0 +1,24 @@
+============================================================
+Step 2: Prompt Hub & A/B Routing
+============================================================
+📤 Pushing prompts to LangSmith Prompt Hub...
+✅ Prompts pushed successfully.
+   [Routing] ID: user-req-0 -> Using rag-prompt-v2
+Q: What is machine learning?
+V: rag-prompt-v2
+A: Machine learning (ML) is a subset of artificial intelligence (AI) that focuses o...
+
+   [Routing] ID: user-req-1 -> Using rag-prompt-v1
+Q: What does RAG stand for?
+V: rag-prompt-v1
+A: RAG stands for Retrieval-Augmented Generation....
+
+   [Routing] ID: user-req-2 -> Using rag-prompt-v2
+Q: Explain deep learning.
+V: rag-prompt-v2
+A: Deep learning is a specialized field within machine learning, which itself is a ...
+
+   [Routing] ID: user-req-3 -> Using rag-prompt-v1
+Q: What is a vector database?
+V: rag-prompt-v1
+A: The context does not provide information about a vector database....

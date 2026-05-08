@@ -1,0 +1,21 @@
+Machine learning (ML) is a field of study in artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computers to perform tasks without explicit instructions. The three main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning.
+
+Overfitting in machine learning occurs when a model learns the training data too well, including its noise and outliers, leading to poor performance on unseen data. The bias-variance tradeoff is a fundamental concept in ML; bias is the error from overly simplistic assumptions, while variance is the error from excessive sensitivity to small fluctuations in the training set. Regularization techniques like L1 and L2 help prevent overfitting by adding a penalty for complexity to the loss function.
+
+Cross-validation is a technique for assessing how the results of a statistical analysis will generalize to an independent data set. Backpropagation is the primary algorithm for training neural networks, calculating gradients of the loss function with respect to the weights.
+
+Convolutional Neural Networks (CNNs) are primarily used for image processing and computer vision tasks. Pooling layers in CNNs are used to reduce the spatial dimensions of the data, helping to control overfitting. Long Short-Term Memory (LSTM) networks are a type of Recurrent Neural Network (RNN) that addresses the vanishing gradient problem using gates to control the flow of information.
+
+The Transformer architecture, introduced in the "Attention Is All You Need" paper, relies on self-attention mechanisms to process sequence data in parallel. Word embeddings are numerical representations of words that capture semantic meaning. BERT (Bidirectional Encoder Representations from Transformers) handles language understanding by looking at words in both directions. GPT (Generative Pre-trained Transformer) is an autoregressive model trained to predict the next token in a sequence.
+
+Instruction tuning involves fine-tuning LLMs on a dataset of instructions to improve their ability to follow user prompts. RLHF (Reinforcement Learning from Human Feedback) is used to align LLM outputs with human preferences. Chain-of-thought prompting encourages the model to generate intermediate reasoning steps.
+
+Retrieval-Augmented Generation (RAG) combines LLMs with external knowledge retrieval. The main components of a RAG pipeline are a retriever, a prompt template, and an LLM. Dense retrieval uses embeddings to find relevant documents, whereas sparse retrieval uses keyword matching. Chunking strategy is crucial in RAG because LLMs have context limits and smaller chunks often provide more precise information.
+
+FAISS (Facebook AI Similarity Search) is a library for efficient similarity search and clustering of dense vectors. HNSW (Hierarchical Navigable Small World) is a popular algorithm for approximate nearest neighbor search. Hybrid search combines vector search with keyword search.
+
+LangChain is a framework for building LLM-powered applications. LangChain Expression Language (LCEL) is a declarative way to compose chains. LangGraph is used for building stateful, multi-actor applications with LLMs. LangSmith is a platform for debugging, testing, and monitoring LLM applications. It captures traces that include inputs, outputs, and latency. The LangSmith Prompt Hub is a repository for versioned prompt management.
+
+RAGAS (RAG Assessment) is a framework for automated evaluation of RAG pipelines. Faithfulness measures how much the answer is derived from the retrieved context. Answer relevancy measures how relevant the answer is to the question. Context recall measures if the context contains the reference answer.
+
+Guardrails AI is a framework for ensuring the quality and safety of LLM outputs. PII (Personally Identifiable Information) detection is important for privacy compliance. Structured output validation ensures that LLMs return data in formats like JSON. Constitutional AI is an approach to training AI systems to follow a set of principles.
